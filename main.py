@@ -3,10 +3,10 @@ import json
 
 array = []
 
-minChunkX = 16
-maxChunkX = 26
-minChunkZ = 16
-maxChunkZ = 26
+minChunkX = 0
+maxChunkX = 16
+minChunkZ = 0
+maxChunkZ = 16
 
 maxX = 16
 maxY = 255
