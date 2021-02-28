@@ -1,3 +1,3 @@
 ### Minecraft Server World Converter
 
-*insert description here later because I already forgot it*
+Converts a minecraft .MCA file to work with ScribbleNerd/minecraft-server
