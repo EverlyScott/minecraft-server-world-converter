@@ -32,10 +32,18 @@ for chunkX in range(maxChunkX):
             if block.id != 'air' and block.id != 'cave_air':
               # print(x+minChunkX, y+minChunkX, z+minChunkX)
               if minChunkX != 0:
+                # This whole bit is broken and idk why
+                # chunkElement['blocks'].append({
+                #   "x": x+minChunkX,
+                #   "y": y+minChunkX,
+                #   "z": z+minChunkX,
+                #   "type": block.id,
+                #   "prop": str(block.properties)
+                # })
                 chunkElement['blocks'].append({
-                  "x": x+minChunkX,
-                  "y": y+minChunkX,
-                  "z": z+minChunkX,
+                  "x": x,
+                  "y": y,
+                  "z": z,
                   "type": block.id,
                   "prop": str(block.properties)
                 })
